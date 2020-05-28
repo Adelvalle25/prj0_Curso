@@ -1,13 +1,13 @@
 $color1:lightyellow;
-$color2: lightsteelblue;
+$color2: #4093ff;
+$h:#4093ff;
+$fondo: url(images/fondo1.jpg);
 
 @media (min-width: 300px) {
-  body{
-    background-color: $color2;
-  }
+
   h1 {
     text-align: center;
-    background-color: lightblue;
+    background-color: $h;
   }
   h1::before {
     content: "how to ";
@@ -16,7 +16,7 @@ $color2: lightsteelblue;
     text-align: center;
   }
   .t1 > div{
-  background-color: lightskyblue;
+  background-color: $h;
   font-size: 20px;
   margin: 20px;
   padding: 20px;
@@ -28,28 +28,24 @@ img{
   height: 150px;
 }
 .card-text::before{
-
 content: "Style of ";
 }
 
-ul{
-  background-color:$color2 ;
-}
 .list-group-mine .list-group-item {
-  background-color: $color2;
-  border-top: 2px solid #0091b5;
+  background-image: $fondo;
+   background-size: cover;
+  opacity:0.6;
+  border-top: 2px solid $h;
   border-left-color: #fff;
   border-right-color: #fff;
 }
 
 }
 @media (max-width: 599px) {
-   body{
-    background-color:$color1;
-  }
+  
   h1 {
     text-align: left;
-    background-color: lightcoral;
+    background-color: $h;
   }
   h1::before {
     content: "";
@@ -61,7 +57,7 @@ ul{
     align-items: center;
   }
   .t1 > div{
-  background-color: lightskyblue;
+  background-color: $h;
   font-size: 20px;
   margin: 5px;
   padding: 20px;
@@ -72,9 +68,7 @@ img{
   width: 130px;
   height: 80px;
 }
-ul{
-  background-color:$color1 ;
-}
+
 .card{
   width: 10rem ;
 }
@@ -88,14 +82,25 @@ content: "";
 }
 
 .list-group-mine .list-group-item {
-  background-color: $color1;
-  border-top: 2px solid #0091b5;
+  background-image: $fondo;
+   background-size: cover;
+  opacity:0.6;
+  border-top: 2px solid $h;
   border-left-color: #fff;
   border-right-color: #fff;
 }
 }
 
+.main{
+  background-image: $fondo;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  background-size: cover;
 
+}
 .t1 {
   display: flex;
   flex-wrap: wrap;

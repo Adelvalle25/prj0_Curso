@@ -1,11 +1,7 @@
 @media (min-width: 300px) {
-  body {
-    background-color: lightsteelblue;
-  }
-
   h1 {
     text-align: center;
-    background-color: lightblue;
+    background-color: #4093ff;
   }
 
   h1::before {
@@ -17,7 +13,7 @@
   }
 
   .t1 > div {
-    background-color: lightskyblue;
+    background-color: #4093ff;
     font-size: 20px;
     margin: 20px;
     padding: 20px;
@@ -33,25 +29,19 @@
     content: "Style of ";
   }
 
-  ul {
-    background-color: lightsteelblue;
-  }
-
   .list-group-mine .list-group-item {
-    background-color: lightsteelblue;
-    border-top: 2px solid #0091b5;
+    background-image: url(images/fondo1.jpg);
+    background-size: cover;
+    opacity: 0.6;
+    border-top: 2px solid #4093ff;
     border-left-color: #fff;
     border-right-color: #fff;
   }
 }
 @media (max-width: 599px) {
-  body {
-    background-color: lightyellow;
-  }
-
   h1 {
     text-align: left;
-    background-color: lightcoral;
+    background-color: #4093ff;
   }
 
   h1::before {
@@ -67,7 +57,7 @@
   }
 
   .t1 > div {
-    background-color: lightskyblue;
+    background-color: #4093ff;
     font-size: 20px;
     margin: 5px;
     padding: 20px;
@@ -77,10 +67,6 @@
   img {
     width: 130px;
     height: 80px;
-  }
-
-  ul {
-    background-color: lightyellow;
   }
 
   .card {
@@ -96,12 +82,24 @@
   }
 
   .list-group-mine .list-group-item {
-    background-color: lightyellow;
-    border-top: 2px solid #0091b5;
+    background-image: url(images/fondo1.jpg);
+    background-size: cover;
+    opacity: 0.6;
+    border-top: 2px solid #4093ff;
     border-left-color: #fff;
     border-right-color: #fff;
   }
 }
+.main {
+  background-image: url(images/fondo1.jpg);
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  background-size: cover;
+}
+
 .t1 {
   display: flex;
   flex-wrap: wrap;
