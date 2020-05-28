@@ -1,0 +1,60 @@
+@media (min-width: 300px) {
+  h1 {
+    text-align: center;
+    background-color: lightblue;
+  }
+
+  h1::before {
+    content: "how to ";
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .t1 > div {
+    background-color: lightskyblue;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+  }
+
+  img {
+    width: 250px;
+    height: 150px;
+  }
+}
+@media (max-width: 599px) {
+  h1 {
+    text-align: left;
+    background-color: lightcoral;
+  }
+
+  h1::before {
+    content: "";
+  }
+
+  h2 {
+    text-align: left;
+  }
+
+  .t1 > div {
+    background-color: lightskyblue;
+    font-size: 20px;
+    margin: 5px;
+    padding: 20px;
+    width: 170px;
+  }
+
+  img {
+    width: 130px;
+    height: 80px;
+  }
+}
+.t1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=style1.css.map */
