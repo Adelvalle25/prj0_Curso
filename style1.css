@@ -1,4 +1,8 @@
 @media (min-width: 300px) {
+  body {
+    background-color: lightsteelblue;
+  }
+
   h1 {
     text-align: center;
     background-color: lightblue;
@@ -24,8 +28,27 @@
     width: 250px;
     height: 150px;
   }
+
+  .card-text::before {
+    content: "Style of ";
+  }
+
+  ul {
+    background-color: lightsteelblue;
+  }
+
+  .list-group-mine .list-group-item {
+    background-color: lightsteelblue;
+    border-top: 2px solid #0091b5;
+    border-left-color: #fff;
+    border-right-color: #fff;
+  }
 }
 @media (max-width: 599px) {
+  body {
+    background-color: lightyellow;
+  }
+
   h1 {
     text-align: left;
     background-color: lightcoral;
@@ -37,6 +60,10 @@
 
   h2 {
     text-align: left;
+  }
+
+  .t1 {
+    align-items: center;
   }
 
   .t1 > div {
@@ -51,10 +78,37 @@
     width: 130px;
     height: 80px;
   }
+
+  ul {
+    background-color: lightyellow;
+  }
+
+  .card {
+    width: 10rem;
+  }
+
+  .card-body {
+    font-size: 13px;
+  }
+
+  .card-text::before {
+    content: "";
+  }
+
+  .list-group-mine .list-group-item {
+    background-color: lightyellow;
+    border-top: 2px solid #0091b5;
+    border-left-color: #fff;
+    border-right-color: #fff;
+  }
 }
 .t1 {
   display: flex;
   flex-wrap: wrap;
+}
+
+.card-body {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style1.css.map */

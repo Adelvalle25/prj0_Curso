@@ -1,4 +1,10 @@
+$color1:lightyellow;
+$color2: lightsteelblue;
+
 @media (min-width: 300px) {
+  body{
+    background-color: $color2;
+  }
   h1 {
     text-align: center;
     background-color: lightblue;
@@ -21,9 +27,26 @@ img{
   width: 250px;
   height: 150px;
 }
+.card-text::before{
+
+content: "Style of ";
+}
+
+ul{
+  background-color:$color2 ;
+}
+.list-group-mine .list-group-item {
+  background-color: $color2;
+  border-top: 2px solid #0091b5;
+  border-left-color: #fff;
+  border-right-color: #fff;
+}
 
 }
 @media (max-width: 599px) {
+   body{
+    background-color:$color1;
+  }
   h1 {
     text-align: left;
     background-color: lightcoral;
@@ -33,6 +56,9 @@ img{
   }
   h2{
     text-align: left;
+  }
+  .t1{
+    align-items: center;
   }
   .t1 > div{
   background-color: lightskyblue;
@@ -46,11 +72,34 @@ img{
   width: 130px;
   height: 80px;
 }
+ul{
+  background-color:$color1 ;
+}
+.card{
+  width: 10rem ;
+}
 
+.card-body{
+font-size: 13px;
+
+}
+.card-text::before{
+content: "";
+}
+
+.list-group-mine .list-group-item {
+  background-color: $color1;
+  border-top: 2px solid #0091b5;
+  border-left-color: #fff;
+  border-right-color: #fff;
+}
 }
 
 
 .t1 {
   display: flex;
   flex-wrap: wrap;
+}
+.card-body{
+   font-weight: bold;
 }
