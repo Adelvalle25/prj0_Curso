@@ -1,10 +1,9 @@
-$color1:lightyellow;
+$color1: lightyellow;
 $color2: #4093ff;
-$h:#4093ff;
+$h: #4093ff;
 $fondo: url(images/fondo1.jpg);
 
 @media (min-width: 300px) {
-
   h1 {
     text-align: center;
     background-color: $h;
@@ -13,39 +12,36 @@ $fondo: url(images/fondo1.jpg);
     content: "how to ";
   }
 
- 
-
-  h2{
+  h2 {
     text-align: center;
   }
-  .t1 > div{
-  background-color: $h;
-  font-size: 20px;
-  margin: 10px;
-  padding: 20px;
-  width: 300px;
-}
+  .t1 > div {
+    background-color: $h;
+    font-size: 20px;
+    margin: auto;
+    padding: auto;
+    width: 300px;
+  }
 
-img{
-  width: 250px;
-  height: 150px;
-}
-.card-text::before{
-content: "Style of ";
-}
+  img {
+    width: 250px;
+    height: 150px;
+  }
+  .card-text::before {
+    content: "Style of ";
+    color: white;
+  }
 
-.list-group-mine .list-group-item {
-  background-image: $fondo;
-   background-size: cover;
-  opacity:0.6;
-  border-top: 2px solid $h;
-  border-left-color: #fff;
-  border-right-color: #fff;
-}
-
+  .list-group-mine .list-group-item {
+    background-image: $fondo;
+    background-size: cover;
+    opacity: 0.6;
+    border-top: 2px solid $h;
+    border-left-color: #fff;
+    border-right-color: #fff;
+  }
 }
 @media (max-width: 599px) {
-  
   h1 {
     text-align: left;
     background-color: $h;
@@ -53,58 +49,73 @@ content: "Style of ";
   h1::before {
     content: "";
   }
-  h2{
+  h2 {
     text-align: left;
   }
-  .t1{
+  .t1 {
     align-items: center;
   }
-  .t1 > div{
-  background-color: $h;
-  font-size: 20px;
-  margin: 5px;
-  padding: 20px;
-  width: 170px;
+  .t1 > div {
+    background-color: $h;
+    font-size: 20px;
+    margin: 5px;
+    padding: auto;
+    width: 170px;
+  }
+  img {
+    width: 130px;
+    height: 80px;
+  }
 
-}
-img{
-  width: 130px;
-  height: 80px;
-}
+  .card-body {
+    font-size: 15px;
+  }
+  .card-text::before {
+    content: "";
+    color: white;
+  }
 
-
-.card-body{
-font-size: 15px;
-
-}
-.card-text::before{
-content: "";
-}
-
-.list-group-mine .list-group-item {
-  background-image: $fondo;
-   background-size: cover;
-  opacity:0.6;
-  border-top: 2px solid $h;
-  border-left-color: #fff;
-  border-right-color: #fff;
-}
+  .list-group-mine .list-group-item {
+    background-image: $fondo;
+    background-size: cover;
+    opacity: 0.6;
+    border-top: 2px solid $h;
+    border-left-color: #fff;
+    border-right-color: #fff;
+  }
 }
 
-.main{
+.main {
   background-image: $fondo;
   width: 100%;
   height: auto;
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: auto;
   position: absolute;
   background-size: cover;
-
 }
 .t1 {
   display: flex;
   flex-wrap: wrap;
 }
-.card-body{
-   font-weight: bold;
+.card-body {
+  font-weight: bold;
+}
+h1 {
+  color: white;
+}
+.card-text {
+  color: white;
+}
+.t1 > div:hover {
+  background-color: darkblue;
+}
+.main2 {
+  background-image: $fondo;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: auto;
+  position: absolute;
+  background-size: cover;
 }

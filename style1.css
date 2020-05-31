@@ -15,8 +15,8 @@
   .t1 > div {
     background-color: #4093ff;
     font-size: 20px;
-    margin: 10px;
-    padding: 20px;
+    margin: auto;
+    padding: auto;
     width: 300px;
   }
 
@@ -27,6 +27,7 @@
 
   .card-text::before {
     content: "Style of ";
+    color: white;
   }
 
   .list-group-mine .list-group-item {
@@ -60,7 +61,7 @@
     background-color: #4093ff;
     font-size: 20px;
     margin: 5px;
-    padding: 20px;
+    padding: auto;
     width: 170px;
   }
 
@@ -75,6 +76,7 @@
 
   .card-text::before {
     content: "";
+    color: white;
   }
 
   .list-group-mine .list-group-item {
@@ -90,8 +92,8 @@
   background-image: url(images/fondo1.jpg);
   width: 100%;
   height: auto;
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: auto;
   position: absolute;
   background-size: cover;
 }
@@ -103,6 +105,28 @@
 
 .card-body {
   font-weight: bold;
+}
+
+h1 {
+  color: white;
+}
+
+.card-text {
+  color: white;
+}
+
+.t1 > div:hover {
+  background-color: darkblue;
+}
+
+.main2 {
+  background-image: url(images/fondo1.jpg);
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: auto;
+  position: absolute;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style1.css.map */

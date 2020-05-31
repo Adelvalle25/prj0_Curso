@@ -1,0 +1,25 @@
+html,
+body {
+  margin: 10px;
+}
+
+@media (min-width: 300px) {
+  .targe1 > .card {
+    background-color: lightblue;
+  }
+
+  .targe1 > .card:hover {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+  }
+  .targe1 > .card:hover .card-title {
+    font-size: 24px;
+  }
+}
+.tittle {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=style2.css.map */

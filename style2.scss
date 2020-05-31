@@ -1,0 +1,30 @@
+html,
+body {
+  margin: 10px;
+}
+$color:springgreen;
+//pantalla grande
+@media (min-width: 300px) {
+
+.targe1 > .card{
+    background-color: lightblue;
+}
+.targe1 > .card:hover{
+    background-color: blue;
+    color: white;
+    .card-title{
+        font-size: 24px;
+    }
+    font-size: 20px;
+}
+}
+//pantalla pequeña/mobil
+
+@media (max-width: 599px) {
+  
+
+}
+.tittle {
+  font-weight: bold;
+  font-size: 18px;
+}
