@@ -1,30 +1,72 @@
+$fondo: url(images/fondo2.jpg);
+
 html,
 body {
   margin: 10px;
 }
-$color:springgreen;
+$color: springgreen;
 //pantalla grande
 @media (min-width: 300px) {
-
-.targe1 > .card{
+  h1 {
+    background-color: #009DB9 ;
+    text-align: center;
+    color:white ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+   
+  }
+  #text{
+    background-color: lightgray;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 20px;
+  }
+  .card-text{
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 20px;
+  }
+  .targe1 > .card {
     background-color: lightblue;
-}
-.targe1 > .card:hover{
-    background-color: blue;
+  }
+  .targe1 > .card:hover {
+    background-color: #61B6C5 ;
     color: white;
-    .card-title{
-        font-size: 24px;
+    .card-title {
+      font-size: 24px;
     }
     font-size: 20px;
-}
+  }
 }
 //pantalla pequeña/mobil
 
 @media (max-width: 599px) {
-  
-
+  h1 {
+    background-color: #7ffadb;
+    text-align: left;
+  }
+    #text{
+    background-color: lightgray;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 14px;
+  }
 }
 .tittle {
   font-weight: bold;
   font-size: 18px;
+}
+.main {
+  background-image: $fondo;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: auto;
+  position: absolute;
+  background-size: cover;
+}
+.main2 {
+  background-image: $fondo;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: auto;
+  position: absolute;
+  background-size: cover;
 }
