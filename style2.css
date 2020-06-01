@@ -1,20 +1,22 @@
-html,
-body {
-  margin: 10px;
-}
-
 @media (min-width: 300px) {
   h1 {
-    background-color: #009DB9;
+    background-color: #0089A2;
     text-align: center;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   }
 
+  h2 {
+    color: white;
+    background-color: #0089A2;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+
   #text {
-    background-color: lightgray;
+    color: white;
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
+    margin-right: 25px;
   }
 
   .card-text {
@@ -37,15 +39,20 @@ body {
 }
 @media (max-width: 599px) {
   h1 {
-    background-color: #7ffadb;
+    background-color: #0089A2;
     text-align: left;
   }
 
   #text {
-    background-color: lightgray;
     font-family: "Times New Roman", Times, serif;
     font-size: 10px;
     margin-right: 25px;
+  }
+
+  h2 {
+    color: white;
+    background-color: #0089A2;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   }
 }
 .tittle {
