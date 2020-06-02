@@ -48,7 +48,7 @@ $color: springgreen;
   }
     #text{
      font-family: 'Times New Roman', Times, serif;
-     font-size: 10px;
+     font-size: 16px;
      margin-right: 25px;
   }
     h2{
@@ -56,6 +56,12 @@ $color: springgreen;
     background-color: #0089A2 ;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
    
+  }
+  .card-body{
+    font-size:12px ;
+  }
+  #font{
+    background-color:#00C0E1 ;
   }
 }
 .tittle {
