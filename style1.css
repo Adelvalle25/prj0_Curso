@@ -2,6 +2,7 @@
   h1 {
     text-align: center;
     background-color: #4093ff;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   }
 
   h1::before {
@@ -9,6 +10,7 @@
   }
 
   h2 {
+    font-family: "Times New Roman", Times, serif;
     text-align: center;
   }
 
@@ -47,9 +49,11 @@
 
   h1::before {
     content: "";
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   }
 
   h2 {
+    font-family: "Times New Roman", Times, serif;
     text-align: left;
   }
 
@@ -92,7 +96,7 @@
   background-image: url(images/fondo1.jpg);
   width: 100%;
   height: auto;
-  margin: 10px;
+  margin: auto;
   padding: auto;
   position: absolute;
   background-size: cover;
@@ -112,6 +116,7 @@ h1 {
 }
 
 .card-text {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: white;
 }
 
@@ -127,6 +132,11 @@ h1 {
   padding: auto;
   position: absolute;
   background-size: cover;
+}
+
+h3 {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /*# sourceMappingURL=style1.css.map */

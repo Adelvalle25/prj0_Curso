@@ -7,12 +7,15 @@ $fondo: url(images/fondo1.jpg);
   h1 {
     text-align: center;
     background-color: $h;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+   
   }
   h1::before {
     content: "how to ";
   }
 
   h2 {
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
   }
   .t1 > div {
@@ -48,8 +51,11 @@ $fondo: url(images/fondo1.jpg);
   }
   h1::before {
     content: "";
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+   
   }
   h2 {
+    font-family: 'Times New Roman', Times, serif;
     text-align: left;
   }
   .t1 {
@@ -68,6 +74,7 @@ $fondo: url(images/fondo1.jpg);
   }
 
   .card-body {
+    
     font-size: 15px;
   }
   .card-text::before {
@@ -105,6 +112,8 @@ h1 {
   color: white;
 }
 .card-text {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+   
   color: white;
 }
 .t1 > div:hover {
@@ -118,4 +127,8 @@ h1 {
   padding: auto;
   position: absolute;
   background-size: cover;
+}
+h3{
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
 }
