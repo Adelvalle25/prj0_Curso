@@ -92,7 +92,7 @@
   background-image: url(images/fondo1.jpg);
   width: 100%;
   height: auto;
-  margin: auto;
+  margin: 10px;
   padding: auto;
   position: absolute;
   background-size: cover;

@@ -58,11 +58,12 @@
   .card-body {
     font-size: 12px;
   }
-
-  #font {
-    background-color: #00C0E1;
-  }
 }
+#font {
+  background-color: #00C0E1;
+  margin: 10px;
+}
+
 .tittle {
   font-weight: bold;
   font-size: 18px;
